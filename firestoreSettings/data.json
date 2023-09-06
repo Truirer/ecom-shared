@@ -1,0 +1,25 @@
+{
+    "products":{
+        "lc_waikiki":{
+            "products":[
+                {
+                    "category":"",
+                    "description":"",
+                    "id":"0",
+                    "image:":"",
+                    "price":0,
+                    "title":""
+                }
+            ]
+        }
+    },
+    "users":{
+        "user_uid":{
+            "address":"",
+            "cart":[],
+            "dateJoined":"",
+            "role":"",
+            "username":""
+        }
+    }
+}
