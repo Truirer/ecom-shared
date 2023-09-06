@@ -17,7 +17,7 @@ git clone https://github.com/Truirer/checkProxy.git
 
 * After cloning the repo,
 ```
-cd /ecom-shared
+cd ecom-shared/
 ```
 ```
 npm install
@@ -29,4 +29,3 @@ npm install
 ```
 npm start
 ```
-*After setting up the correct parameters the function should start printing the ip adresses to txt files. File names are created as protocol_name_ValidProxies.txt.
