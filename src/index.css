@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-primary text-primary;
+  }
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  padding: 0;
+  margin: 0;
+}
+@keyframes cartAdded {
+    from{
+      transform: scale(1.2);
+    }
+    to{
+      transform: scale(1);
+    }
+}
+@keyframes animateErrorBox {
+  from{
+    opacity: 1;
+  }
+  to{
+    opacity: 0;
+  }
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 0px;
+}
+.scrollBarHover::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: tomato;
+  border: 0px none tomato;;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border: 0px none #333333;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}

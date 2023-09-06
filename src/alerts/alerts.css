@@ -1,0 +1,17 @@
+@keyframes autohide {
+    0%{
+        opacity: 0;
+        right: 0px;
+    }
+    10%{
+        opacity: 1;
+        right: 40px;
+    }
+    70%{
+        opacity: 1;
+        right: 40px;
+    }
+    100%{
+        opacity: 0;
+    }
+}
